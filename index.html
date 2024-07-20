@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="leftnav">
+                <div class="imgbox">
+                    <img src="https://vitejs.dev/logo.svg" alt="">
+                    <div>Vite</div>
+                </div>
+                <input type="text" name="search" id="search" placeholder="Search">
+            </div>
+            <div class="rightnav">
+                <ul class="navul">
+                    <li><a href="#" class="link">Guide</a></li>
+                    <li><a href="#" class="link">Config</a></li>
+                    <li><a href="#" class="link">Plugin</a></li>
+                    <li id="navresources"><a href="#" class="diffa transition">Resources
+                            <span class="material-symbols-outlined" style="font-size: 18px">
+                                keyboard_arrow_down
+                            </span>
+                        </a>
+                        <div class="box" id="resources">
+                            <div>Team</div>
+                            <div>Blog</div>
+                            <div>Releases</div>
+                            <div>Mastodon</div>
+                            <div>Twitter</div>
+                            <div>Discord Chat</div>
+                            <div>Awesome Vite</div>
+                            <div>ViteConf</div>
+                            <div>DevCommunity</div>
+                            <div>Changelog</div>
+                            <div>Contributing</div>
+                        </div>
+                    </li>
+                    <li id="navversion">
+                        <a href="#" class="diffa transition">Version
+                            <span class="material-symbols-outlined" style="font-size: 18px">
+                                keyboard_arrow_down
+                            </span>
+                        </a>
+                        <div class="box" id="version">
+                            <div>Vite 4 docs</div>
+                            <div>Vite 3 docs</div>
+                            <div>Vite 2 docs</div>
+                        </div>
+                    </li>
+                    <div class="line"></div>
+                    <div id="navlang" class="paddingc">
+                        <a href="#" class="diffa transition">
+                            <img src="imgs/lang.png" id="diffimg" class="transition" onmouseover="mouseup()" alt="3">
+                            <span class="material-symbols-outlined" style="font-size: 18px">
+                                keyboard_arrow_down
+                            </span>
+                        </a>
+                        <div class="box" id="lang">
+                            <div>English</div>
+                            <div>简体中文</div>
+                            <div>日本語</div>
+                            <div>Español</div>
+                            <div>Português</div>
+                            <div>한국어</div>
+                            <div>Deutsch</div>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+                    <div id="darklight"><img src="svgs/dark.svg" id="imgid" class="changeimg" alt=""></div>
+                    <div class="line"></div>
+                    <img src="imgs/mastodon.png" onmouseover="mouseup()" class="elenvite changeimg" alt="1">
+                    <img src="svgs/x.svg" onmouseover="mouseup()" class="changeimg" alt="">
+                    <img src="imgs/chat.png" onmouseover="mouseup()" class="changeimg" alt="2">
+                    <img src="imgs/github.png" onmouseover="mouseup()" class="changeimg" alt="4">
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="secleft">
+            <div class="vite">Vite</div>
+            <div class="heading">Next Generation Frontend Tooling</div>
+            <p>Get ready for a development environment that can finally catch up with you.</p>
+            <button class="btnblue btn">Get Started</button>
+            <button class="btnwhite btn">Why Vite?</button>
+            <button class="btnwhite btn">View on GitHub</button>
+            <button class="btnblue btn">🎉 ViteConf 23!</button>
+        </div>
+        <div class="secright">
+            <img src="imgs/logo.png" alt="" class="logo">
+        </div>
+    </section>
+
+    <section class="cardcontainer">
+        <div class="card">
+            <div class="icon">💡</div>
+            <h3>Instant Server Start</h3>
+            <p>On demand file serving over native ESM, no bundling required!</p>
+        </div>
+        <div class="card">
+            <div class="icon">⚡️</div>
+            <h3>Lightning Fast HMR</h3>
+            <p>Hot Module Replacement (HMR) that stays fast regardless of app size.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🛠️</div>
+            <h3>Rich Features</h3>
+            <p>Out-of-the-box support for TypeScript, JSX, CSS and more.</p>
+        </div>
+        <div class="card">
+            <div class="icon">📦</div>
+            <h3>Optimized Build</h3>
+            <p>Pre-configured Rollup build with multi-page and library mode support.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🔩</div>
+            <h3>Universal Plugins</h3>
+            <p>Rollup-superset plugin interface shared between dev and build.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🔑</div>
+            <h3>Fully Typed APIs</h3>
+            <p>Flexible programmatic APIs with full TypeScript typing.</p>
+        </div>
+    </section>
+    <hr class="horizontal">
+    <section class="sponsors">
+        <div class="heartsec">
+            <span class="material-symbols-outlined">
+                favorite
+            </span>
+            <div>Vite is free and open source, made possible by wonderful sponsors.</div>
+        </div>
+        <div class="specialsponsors">
+            <div class="sponsorsheading sponsorscolor sponsorsborder">Special Sponsors</div>
+            <div class="spsponsorscards">
+                <div class="specialsponsorscard sponsorscolor fullflex hovercard">
+                    <img src="imgs/stack.png" alt="">
+                </div>
+                <div class="specialsponsorscard sponsorscolor fullflex hovercard">
+                    <img src="imgs/astro.png" alt="">
+                </div>
+                <div class="specialsponsorscard sponsorscolor fullflex hovercard">
+                    <img src="imgs/labs.png" alt="">
+                </div>
+            </div>
+            <div class="sponsorsheading sponsorscolor">Platinum Sponsors</div>
+            <div class="spsponsorscards">
+                <div class="platinumsponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/story.png" alt="">
+                </div>
+                <div class="platinumsponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/bit.png" alt="">
+                </div>
+            </div>
+            <div class="sponsorsheading sponsorscolor">Golden Sponsors</div>
+            <div class="spsponsorscards">
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/tailwind.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/riot1.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/perfect.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/jetbrains.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/mux.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex borderadiusleft hovercard">
+                    <img src="imgs/remix.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/nx.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/transoldit.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex hovercard">
+                    <img src="imgs/huly.png" alt="">
+                </div>
+                <div class="goldensponsors sponsorscolor fullflex borderadiusright hovercard">
+                    <img src="imgs/handsontable.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fullflex buttons">
+            <button class="sponsorsbtn">Sponsor Vite</button>
+            <button class="sponsorsbtn">Sponsor Evan Vite</button>
+        </div>
+    </section>
+    <hr class="horizontal footerhorizontal">
+    <section class="footer">
+        <div class="paragraph">Released under the MIT License. (61357f67)</div>
+        <div class="paragraph">Copyright © 2019-present Evan You & Vite Contributors</div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
